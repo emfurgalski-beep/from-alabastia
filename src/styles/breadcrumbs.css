@@ -1,0 +1,12 @@
+.crumbs{
+  margin: 8px 0 12px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  align-items:center;
+  color: rgba(154,163,178,.95);
+  font-weight:900;
+  font-size:13px;
+}
+.crumbs__sep{ opacity:.55; margin:0 6px; }
+.crumbs__link:hover{ color:var(--text); }
